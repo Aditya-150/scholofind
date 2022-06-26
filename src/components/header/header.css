@@ -1,0 +1,73 @@
+.scholofind__header {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10rem;
+  padding-left: 4rem;
+  align-items: center;
+}
+.scholofind__header-content {
+  display: flex;
+  flex-direction: column;
+}
+.scholofind__header-content h1 {
+  font-family: var(--font-main);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 79px;
+  text-transform: capitalize;
+  color: #353535;
+}
+.scholofind__header-content span {
+  color: var(--color-primary);
+}
+.scholofind__header-content p {
+  font-family: var(--font-sub);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #353535;
+  margin-top: 0.5rem;
+}
+.scholofind__header-content__button {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  margin-top: 1rem;
+}
+.scholofind__header-content__button button {
+  font-family: var(--font-sub);
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+}
+.header-content__button-register {
+  border-radius: 20px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  color: white;
+
+  cursor: pointer;
+}
+.header-content__button-know {
+  border-radius: 20px;
+  background: white;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.scholofind__header-image img {
+  width: 735px;
+  height: 500px;
+}
+.header-content__button-register:hover {
+  background: #467bff;
+  border: 2px solid #467bff;
+}
+.header-content__button-know:hover {
+  background: var(--color-sub);
+  border: 2px solid #467bff;    
+}
