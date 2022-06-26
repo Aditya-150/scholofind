@@ -1,0 +1,162 @@
+.scholofind__navbar {
+  padding: 2rem 4rem;
+  background-color: white;
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+}
+.scholofind__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.scholofind__navbar-links__logo {
+  margin-right: 2rem;
+
+  cursor: pointer;
+}
+.scholofind__navbar-links__logo img {
+  width: 212.36px;
+  height: 56.94px;
+}
+.scholofind__navbar-links__container {
+  display: flex;
+  flex-direction: row;
+}
+.scholofind__navbar-sign {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.scholofind__navbar-links__container p,
+.scholofind__navbar-menu_container_links p {
+  font-family: var(--font-sub);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  margin: 0 1rem;
+  color: #353535;
+  cursor: pointer;
+}
+.scholofind__navbar-links__container p:hover,
+.scholofind__navbar-menu_container_links p:hover {
+  color: var(--color-primary);
+}
+.scholofind__navbar-sign button {
+  font-family: var(--font-sub);
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+}
+.navbar__sign-in__button,
+.navbar-menu_container_links-sign_sign_in {
+  border-radius: 20px;
+  background: white;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+
+  cursor: pointer;
+}
+.navbar__sign-up__button,
+.navbar-menu_container_links-sign_sign_up {
+  border-radius: 20px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  color: white;
+
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.navbar__sign-in__button:hover {
+  background: var(--color-sub);
+  border: 2px solid #467bff;
+}
+.navbar__sign-up__button:hover {
+  background: #467bff;
+  border: 2px solid #467bff;
+}
+.scholofind__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: white;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 1);
+}
+.scholofind__navbar-menu {
+  display: none;
+  margin-left: 1rem;
+}
+.scholofind__navbar-menu svg {
+  cursor: pointer;
+}
+.scholofind__navbar-menu_container_links_sign {
+  display: none;
+}
+.scholofind__navbar-menu_container p {
+  margin: 1rem 0;
+}
+.scholofind__navbar-menu_container_links-sign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.scholofind__navbar-menu_container_links-sign button {
+  font-family: var(--font-sub);
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 00.5rem;
+}
+@media screen and (max-width: 1050px) {
+  .scholofind__navbar-links__container {
+    display: none;
+  }
+  .scholofind__navbar-menu {
+    display: flex;
+  }
+  .scholofind__navbar-menu_container_links-sign {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .scholofind__navbar {
+    padding: 2rem 2rem;
+  }
+  .scholofind__navbar-links__logo img {
+    width: 155.4px;
+    height: 42px;
+  }
+  .scholofind__navbar-menu_container_links-sign {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .scholofind__navbar-links__logo img {
+    width: 111px;
+    height: 30px;
+  }
+  .scholofind__navbar-menu_container_links-sign {
+    display: flex;
+  }
+  .scholofind__navbar-links__container,
+  .scholofind__navbar-sign {
+    display: none;
+  }
+  .scholofind__navbar {
+    padding: 1rem 2rem;
+  }
+}

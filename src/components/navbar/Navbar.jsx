@@ -26,43 +26,49 @@ const Navbar = () => {
     <div className="scholofind__navbar">
       <div className="scholofind__navbar-links">
         <div className="scholofind__navbar-links__logo">
-          <img src={logo} alt="logo" />
+          <a href="#home">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <div className="scholofind__navbar-links__container">
           <Menu />
         </div>
       </div>
       <div className="scholofind__navbar-sign">
-        <button className="navbar__sign-in__button"></button>
-        <button className="navbar__sign-up__button"></button>
+        <button className="navbar__sign-in__button" type="button">
+          Sign in
+        </button>
+        <button className="navbar__sign-up__button" type="button">
+          Sign up
+        </button>
       </div>
       <div className="scholofind__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#000000"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#000000"
             size={27}
             onClick={() => setToggleMenu(true)}
           />
         )}
         {toggleMenu && (
-          <div className="scholofind__navbar__navbar-menu_container scale-up-centre">
+          <div className="scholofind__navbar-menu_container scale-up-centre">
             <div className="scholofind__navbar-menu_container_links">
               <Menu />
-              <div className="scholofind__navbar__navbar-menu_container_links-sign">
+              <div className="scholofind__navbar-menu_container_links-sign">
                 <button
-                  className="scholofind__navbar__navbar-menu_container_links-sign_sign_in"
+                  className="navbar-menu_container_links-sign_sign_in"
                   type="button"
                 >
                   Sign in
                 </button>
                 <button
-                  className="scholofind__navbar__navbar-menu_container_links-sign_sign_up"
+                  className="navbar-menu_container_links-sign_sign_up"
                   type="button"
                 >
                   Sign up

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,500;0,600;0,700;1,200;1,500;1,600;1,700&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,200;1,500;1,600;1,700&family=Leckerli+One&display=swap');
 @font-face {
   font-family: "Gilroy-Bold";
   src: local("Gilroy-Bold"), url("./assets/fonts/Gilroy-Bold.ttf") format("ttf");
@@ -10,7 +10,7 @@
 }
 
 :root {
-    --font-sub: "Josefin Sans", sans-serif;
+    --font-sub: "Poppins", sans-serif;
     --font-main: "Gilroy-Bold", "Tahoma";
     --color-primary: #0B4FFF;
     --color-sub: #dfe7ff;
