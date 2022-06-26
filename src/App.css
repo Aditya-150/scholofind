@@ -8,3 +8,9 @@ a {
   color: unset;
   text-decoration: none;
 }
+.section__margin {
+  margin: 4rem 6rem;
+}
+.navbar {
+  position: fixed;
+}
