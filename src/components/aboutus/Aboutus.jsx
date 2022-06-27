@@ -1,10 +1,10 @@
 import React from "react";
 import about01 from "./../../assets/images/about01.svg";
 import about02 from "./../../assets/images/about02.svg";
-
+import "./aboutus.css";
 const Aboutus = () => {
   return (
-    <div className="scholofind__about">
+    <div className="scholofind__about" id="about">
       <div className="scholofind__about-heading">
         <h1>
           About Us<span>About Us</span>

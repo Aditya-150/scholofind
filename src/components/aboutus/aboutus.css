@@ -1,0 +1,50 @@
+.scholofind__about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+.scholofind__about-heading {
+  display: flex;
+  flex-direction: row;
+}
+.scholofind__about-heading h1 {
+  position: relative;
+  font-family: var(--font-main);
+  font-weight: 700;
+  font-size: 80px;
+
+  padding-left: 4rem;
+  line-height: 99px;
+  color: #353535;
+}
+.scholofind__about-heading span {
+  clear: both;
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  font-size: 288px;
+  left: -76px;
+  color: rgba(11, 79, 255, 0.1);
+}
+.scholofind__about-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 1rem;
+}
+.scholofind__about-content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10rem;
+}
+.scholofind__about-content1 p {
+  font-family: var(--font-sub);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #353535;
+  padding-right: 2rem;
+}
