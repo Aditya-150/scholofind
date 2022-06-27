@@ -9,7 +9,7 @@ const Header = () => {
           Bridging The Gap Between <span>Ambition</span> And{" "}
           <span>Knowledge</span>
         </h1>
-        <p>An effort to help each every student all over the world.</p>
+        <p>An effort to help each and every student all over the world.</p>
         <div className="scholofind__header-content__button">
           <button type="button" className="header-content__button-register">
             Register Now
