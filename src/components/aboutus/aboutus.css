@@ -48,3 +48,17 @@
   color: #353535;
   padding-right: 2rem;
 }
+.scholofind__about-content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.scholofind__about-content2 p {
+  font-family: var(--font-sub);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #353535;
+  padding-left: 3rem;
+}
