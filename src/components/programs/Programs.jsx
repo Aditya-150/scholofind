@@ -2,8 +2,12 @@ import React from "react";
 
 const Programs = () => {
   return (
-    <div>
-      <h1>Programs</h1>
+    <div className="scholofind__programs">
+      <div className="scholofind__programs-heading">
+        <h1>
+          Programs<span>Programs</span>
+        </h1>
+      </div>
     </div>
   );
 };
